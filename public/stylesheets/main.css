@@ -3,6 +3,8 @@
 @import "header.css";
 @import "buttons.css";
 @import "form.css";
+@import "author.css";
+@import "books.css";
 
 :root {
     font-family: 'Montserrat', sans-serif;
@@ -30,4 +32,10 @@ body {
 
 .page-header {
     font-size: 2rem;
+}
+
+.error-message {
+    font-size: 2rem;
+    color: #6e1313;
+    font-weight: bold;
 }
