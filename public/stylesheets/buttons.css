@@ -1,0 +1,50 @@
+:root {
+    --color-btn-primary-background: #03045e;
+    --color-btn-primary-background-dark: #020230;
+    --color-btn-danger-background: #6a040f;
+    --color-btn-danger-background-dark: #440208;
+    --color-btn-border: black;
+}
+
+.btn {
+    border: 1px solid var(--color-btn-border);
+    border-radius: .5rem;
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn-row {
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.btn-row > * {
+    margin-left: .75rem;
+}
+
+.btn-row > *:first-child {
+    margin-left: 0;
+}
+
+.btn-primary {
+    color: var(--color-text-light);
+    background-color: var(--color-btn-primary-background);
+}
+
+.btn-primary:hover {
+    background-color: var(--color-btn-primary-background-dark);
+}
+
+.btn-danger {
+    color: var(--color-text-light);
+    background-color: var(--color-btn-danger-background);
+}
+
+.btn-danger:hover {
+    background-color: var(--color-btn-danger-background-dark);
+}
